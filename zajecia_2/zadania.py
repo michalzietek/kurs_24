@@ -22,13 +22,13 @@ print("Twój wiek to {wiek_uzytkownika_do_wyswietlenia}, brakuje Ci {lata_do_eme
      napisz program, który konwertuje temperaturę w stopniach Celsiusza na temperaturę w stopniach Fahrenheita.
      Stosuj wzór: Fahrenheit = (Celsius * 9/5) + 32.
 '''
-# print("Witaj w programie konwersji temperatury wyrazonej w Celsiusach do temperatury w Fahrenheitach")
-#
-# temperatura_w_celsiusach = float(input("Podaj nam temperaturę w Celsiusach: "))
-#
-# temperatura_w_fahrentaitach = (temperatura_w_celsiusach * 9/5) + 32
-#
-# print(f"Temperatura w Fahrenheitach wynosi: {temperatura_w_fahrentaitach}")
+print("Witaj w programie konwersji temperatury wyrazonej w Celsiusach do temperatury w Fahrenheitach")
+
+temperatura_w_celsiusach = float(input("Podaj nam temperaturę w Celsiusach: "))
+
+temperatura_w_fahrentaitach = (temperatura_w_celsiusach * 9/5) + 32
+
+print(f"Temperatura w Fahrenheitach wynosi: {temperatura_w_fahrentaitach}")
 
 
 #######################################################################################################################
