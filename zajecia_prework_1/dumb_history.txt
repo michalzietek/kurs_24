@@ -1,0 +1,208 @@
+commit eedbaf590d90662cc601b20e41d8cf1fac37db96
+Merge: 0a17024 bf7b06e
+Author: michalzietek <michalzietkowski@gmail.com>
+Date:   Thu Sep 21 18:53:54 2023 +0200
+
+    Merge pull request #1 from michalzietek/nowy_przepis_na_schabowego
+    
+    dodano_przepis_na_kotleta_mielonego
+
+commit bf7b06ee5f730152a8b33032cadc4fa24441c643
+Author: Michał Ziętkowski <michal.zietkowski@stxnext.pl>
+Date:   Thu Sep 21 18:50:50 2023 +0200
+
+    dodano_przepis_na_kotleta_mielonego
+
+diff --git a/przepis_na_kotlet_mielony.txt b/przepis_na_kotlet_mielony.txt
+new file mode 100644
+index 0000000..1561dc7
+--- /dev/null
++++ b/przepis_na_kotlet_mielony.txt
+@@ -0,0 +1,3 @@
++Skladniki:
++500g miesa
++500g ziemniakow
+
+commit 0a17024fc1a6faee3862b977ef060acb657946d8
+Author: Michał Ziętkowski <michal.zietkowski@stxnext.pl>
+Date:   Thu Sep 21 18:21:12 2023 +0200
+
+    dodano ziemniaki oraz pomidora do przepisu na schabowego
+
+diff --git a/przepis_na_schabowego.txt b/przepis_na_schabowego.txt
+index e86edcb..b78bd3c 100644
+--- a/przepis_na_schabowego.txt
++++ b/przepis_na_schabowego.txt
+@@ -2,6 +2,8 @@ Skladniki:
+ 150g miesa wieprzowego
+ 100g bulki tartej
+ 2 jajka
++200g ziemniakow
++150g pomidorow
+ 
+ Przepis:
+ 1. Zawolaj kucharza
+
+commit ea3844be11c8960e66cf68a36fcd20e2b79535c8
+Author: Michał Ziętkowski <michal.zietkowski@stxnext.pl>
+Date:   Thu Sep 21 18:07:36 2023 +0200
+
+    dodano nowy przepis na salatke
+
+diff --git a/przepis_na_salatke.txt b/przepis_na_salatke.txt
+index e69de29..6c28bfb 100644
+--- a/przepis_na_salatke.txt
++++ b/przepis_na_salatke.txt
+@@ -0,0 +1,10 @@
++Skladniki:
++250g rukoli
++100g pomidorow
++150g papryki
++200g ogórków
++
++Przepis:
++Rukole umyj
++Pomidory, Papryke i Ogórki pokrój
++Zmieszaj wszystko
+
+commit bc566e6733e583a4b1df71fc5d9119274be22419
+Author: Michał Ziętkowski <michal.zietkowski@stxnext.pl>
+Date:   Thu Sep 21 17:59:04 2023 +0200
+
+    Revert "Revert "zmieniono przepis na jajecznice""
+    
+    This reverts commit 676a8f541973d808721f4b033a05b65e6f18ad52.
+
+diff --git a/przepis_na_jajecznice.txt b/przepis_na_jajecznice.txt
+index e69de29..080d5ba 100644
+--- a/przepis_na_jajecznice.txt
++++ b/przepis_na_jajecznice.txt
+@@ -0,0 +1,4 @@
++Skladniki:
++2 jajka
++20g masla
++25g boczku
+
+commit 676a8f541973d808721f4b033a05b65e6f18ad52
+Author: Michał Ziętkowski <michal.zietkowski@stxnext.pl>
+Date:   Thu Sep 21 17:55:26 2023 +0200
+
+    Revert "zmieniono przepis na jajecznice"
+    
+    This reverts commit 6f987b9e41ba5d289f6756d076650046aeaa52a2.
+
+diff --git a/przepis_na_jajecznice.txt b/przepis_na_jajecznice.txt
+index 080d5ba..e69de29 100644
+--- a/przepis_na_jajecznice.txt
++++ b/przepis_na_jajecznice.txt
+@@ -1,4 +0,0 @@
+-Skladniki:
+-2 jajka
+-20g masla
+-25g boczku
+
+commit 6f987b9e41ba5d289f6756d076650046aeaa52a2
+Author: Michał Ziętkowski <michal.zietkowski@stxnext.pl>
+Date:   Thu Sep 21 17:53:35 2023 +0200
+
+    zmieniono przepis na jajecznice
+
+diff --git a/przepis_na_jajecznice.txt b/przepis_na_jajecznice.txt
+index e69de29..080d5ba 100644
+--- a/przepis_na_jajecznice.txt
++++ b/przepis_na_jajecznice.txt
+@@ -0,0 +1,4 @@
++Skladniki:
++2 jajka
++20g masla
++25g boczku
+
+commit 845d0e9c49beb0bc78236774f7f34bcec10fabb1
+Author: Michał Ziętkowski <michal.zietkowski@stxnext.pl>
+Date:   Thu Sep 21 17:52:39 2023 +0200
+
+    dodano przepis na salatke i zmieniono nowy plik na przepis na jajecznice
+
+diff --git a/nowy_plik.txt b/przepis_na_jajecznice.txt
+similarity index 100%
+rename from nowy_plik.txt
+rename to przepis_na_jajecznice.txt
+diff --git a/przepis_na_salatke.txt b/przepis_na_salatke.txt
+new file mode 100644
+index 0000000..e69de29
+
+commit f9d9126d4465397ca90dab299c31649430831c13
+Author: Michał Ziętkowski <michal.zietkowski@stxnext.pl>
+Date:   Thu Sep 21 17:44:36 2023 +0200
+
+    dodano nowy plik
+
+diff --git a/nowy_plik.txt b/nowy_plik.txt
+new file mode 100644
+index 0000000..e69de29
+
+commit b405ff7b0cb5b9029f438984384fabc6c4e94f22
+Author: Michał Ziętkowski <michal.zietkowski@stxnext.pl>
+Date:   Mon Sep 18 18:52:13 2023 +0200
+
+    zmieniono przepisy na schabowego i pierogi ruskie
+
+diff --git a/przepis_na_pierogi_ruskie.txt b/przepis_na_pierogi_ruskie.txt
+index 7f7113d..117ad9d 100644
+--- a/przepis_na_pierogi_ruskie.txt
++++ b/przepis_na_pierogi_ruskie.txt
+@@ -3,3 +3,8 @@ Skladniki:
+ 2 cebule
+ 2 jajka
+ 150g twarog
++
++Przepis:
++1. Jajko rozbij
++2. Dodaj make
++3. Zetrzyj cebule
+diff --git a/przepis_na_schabowego.txt b/przepis_na_schabowego.txt
+index de6e1d8..e86edcb 100644
+--- a/przepis_na_schabowego.txt
++++ b/przepis_na_schabowego.txt
+@@ -2,3 +2,6 @@ Skladniki:
+ 150g miesa wieprzowego
+ 100g bulki tartej
+ 2 jajka
++
++Przepis:
++1. Zawolaj kucharza
+
+commit 3e65cd2b82c5021438b320b08c804527f37bbf89
+Author: Michał Ziętkowski <michal.zietkowski@stxnext.pl>
+Date:   Mon Sep 18 18:46:22 2023 +0200
+
+    Dodano przepis na schabowego
+
+diff --git a/przepis_na_schabowego.txt b/przepis_na_schabowego.txt
+new file mode 100644
+index 0000000..de6e1d8
+--- /dev/null
++++ b/przepis_na_schabowego.txt
+@@ -0,0 +1,4 @@
++Skladniki:
++150g miesa wieprzowego
++100g bulki tartej
++2 jajka
+
+commit 25e899396be2f2404cc34da413e3d33c90d4eb26
+Author: Michał Ziętkowski <michal.zietkowski@stxnext.pl>
+Date:   Mon Sep 18 18:44:04 2023 +0200
+
+    Dodano przepis na pierogi ruskie
+
+diff --git a/przepis_na_pierogi_ruskie.txt b/przepis_na_pierogi_ruskie.txt
+new file mode 100644
+index 0000000..7f7113d
+--- /dev/null
++++ b/przepis_na_pierogi_ruskie.txt
+@@ -0,0 +1,5 @@
++Skladniki:
++100g maki
++2 cebule
++2 jajka
++150g twarog
