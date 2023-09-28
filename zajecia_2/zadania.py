@@ -38,12 +38,12 @@ print(f"Temperatura w Fahrenheitach wynosi: {temperatura_w_fahrentaitach}")
      Wyświetl wynik.
     dzielenie //
 '''
-# print("Witaj w naszym programie do obliczania wyniku dzielenia bez reszty.")
-# pierwsza_liczba = float(input("Podaj liczbę, którą chcesz podzielić: "))
-# druga_liczba = float(input("Podaj liczbę, przez którą chcesz podzielić: "))
-#
-# print(f"Twoja liczba całkowita z dzielenia wynosi: {int(pierwsza_liczba//druga_liczba)}")
-# print(type(pierwsza_liczba))
+print("Witaj w naszym programie do obliczania wyniku dzielenia bez reszty.")
+pierwsza_liczba = float(input("Podaj liczbę, którą chcesz podzielić: "))
+druga_liczba = float(input("Podaj liczbę, przez którą chcesz podzielić: "))
+
+print(f"Twoja liczba całkowita z dzielenia wynosi: {int(pierwsza_liczba//druga_liczba)}")
+print(type(pierwsza_liczba))
 
 
 #######################################################################################################################
