@@ -20,8 +20,8 @@ def parse_response_to_find_rain(response):
 
 def search_weather_from_api(searched_date, city):
     longitude, latitude = get_longitute_and_latitude_from_city(city)
-    url_address = (f"https://api.open-meteo.com/v1/forecast?daily=rain_sum&end_date={searched_date}&hourly=rain"
-                   f"&latitude={latitude}&longitude={longitude}&start_date={searched_date}&timezone=Europe%2FLondon")
+    url_address = (f"https://api.open-meteo.com/v1/forecast?latitude={latitude}&longitude={longitude}&hourly=rain"
+                   f"&daily=rain_sum&timezone=Europe%2FLondon&start_date={searched_date}&end_date={searched_date}")
     response = requests.get(url=url_address)
     if response.status_code == 200:
         parse_response_to_find_rain(response.text)
@@ -56,4 +56,4 @@ data_in_file: dict = read_data_from_file(file="opady.json")
 if find_data_in_file():
     search_data_in_file()
 else:
-    search_weather_from_api(searched_date="2023-11-09", city=city)
+    search_weather_from_api(searched_date=user_date, city=user_city)
