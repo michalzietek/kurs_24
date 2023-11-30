@@ -1,0 +1,4 @@
+trąbka,3,7,0
+kanapka,12,17,kubek
+pedzel,17,34,5
+plakat,kieliszek,8,0
