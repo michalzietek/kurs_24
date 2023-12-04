@@ -31,3 +31,19 @@ class ElectricEngine(Engine):
 
     def load_fuel(self):
         pass
+
+
+
+class Bird:
+    @abstractmethod
+    def move(self):
+        pass
+
+class Pinguin(Bird):
+    def move(self):
+        print("Ja chodzę")
+
+
+class Pigeon(Bird):
+    def move(self):
+        print("Ja latam")

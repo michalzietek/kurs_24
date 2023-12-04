@@ -1,0 +1,1 @@
+"Utworzylem magazyn", "Zakupilem 1 lodke za 1000 zl", "Kupilem auto za 500 zl", "Sprzedalem 2 auta za 1000 zl", "dodalem 12000 do konta", "dodalem 12000 do konta"

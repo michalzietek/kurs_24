@@ -51,3 +51,29 @@ class OilEngine(Engine, OilMaintenance):
 
     def change_oil(self):
         pass
+
+
+
+class Bird:
+    @abstractmethod
+    def move(self):
+        pass
+
+
+class FlyingBird:
+    def fly(self):
+        print("Ja latam")
+
+
+class Pinguin(Bird):
+    def move(self):
+        print("Ja chodzę")
+
+
+class Pigeon(Bird, FlyingBird):
+    pass
+
+
+pinguin = Pinguin()
+pigeon = Pigeon()
+pigeon.fly()
