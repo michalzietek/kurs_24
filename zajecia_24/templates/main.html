@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1>Strona główna</h1>
+<h2>Stan konta: {{ context.stan_konta }}</h2>
+{% for item in context.magazyn.items() %}
+<h3>{{item}}</h3>
+{% endfor %}
+
+<form method="POST">
+    <input type="hidden" name="operacja" value="sprzedaz-produktu" />
+    <input type="text" placeholder="Podaj nazwę produktu" name="nazwa" />
+    <input type="text" placeholder="Podaj ilość" name="ilosc" />
+    <button type="submit">Wyślij</button>
+</form>
+<br>
+<form method="POST" action="zmiana-salda">
+    <input type="text" placeholder="Podaj ilość pieniędzy do wpłaty" name="nazwa">
+    <button type="submit">Wyślij</button>
+</form>
+
+{% endblock %}

@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Nasza strona internetowa</title>
+</head>
+<body>
+    <nav>
+        <a href="{{ url_for('routes.index')}}">Home</a>
+        <a href="/">Home1</a>
+        <a href="/about">About</a>
+        <a href="{{ url_for('routes.about')}}">About2</a>
+    </nav>
+    {% block content %}
+    {% endblock %}
+</body>
+</html>
